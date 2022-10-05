@@ -1,13 +1,5 @@
 [
   {
-    "id": "97315609-W",
-    "name": "Mr Diego Moreno",
-    "gender": "male",
-    "contact": "diego.moreno@example.com",
-    "photoUrl": "https://randomuser.me/api/portraits/med/men/94.jpg",
-    "address": "Aragón, Las Palmas de Gran Canaria, Spain"
-  },
-  {
     "id": "zhr.prs@example.com",
     "name": "Miss زهرا پارسا",
     "gender": "female",
