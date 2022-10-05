@@ -8,7 +8,20 @@ const randomUser = (req, res, next) => {
   res.send(usersJSON[randomUser]);
 };
 
+// Get all users
+const allUsers = (req, res, next) => {
+  const { query } = req;
+
+  // limit is specified
+  if (query.limit) {
+    res.send(usersJSON.slice(0, parseInt(query.limit)));
+  } else {
+    res.send(usersJSON);
+  }
+};
+
 // Exports
 module.exports = {
   randomUser,
+  allUsers,
 };
